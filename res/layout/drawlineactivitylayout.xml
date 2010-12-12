@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_height="fill_parent" 
+  android:layout_width="fill_parent" 
+  android:orientation="vertical" 
+  android:id = "@+id/parent"
+  >
+  <ImageView android:id="@+id/PhotoImageView" 
+	android:layout_width="300px" 
+	android:layout_height="300px"
+	></ImageView>
+	<TextView android:text="获取距离" 
+		android:id="@+id/DisplayDistanceTestView" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		></TextView>
+	<LinearLayout android:id="@+id/ControlButton" 
+		android:layout_width="fill_parent" 
+		android:layout_height="40px" 
+		android:orientation="horizontal">
+		<Button android:text="Cancel" 
+			android:id="@+id/CancelButton" 
+			android:layout_width="fill_parent" 
+			android:layout_height="fill_parent"
+			android:layout_weight="1" 
+			></Button>
+		<Button android:text="Next" 
+			android:id="@+id/NextStepButton" 
+			android:layout_width="fill_parent" 
+			android:layout_height="fill_parent"
+			android:layout_weight="1" 
+			></Button>
+	</LinearLayout>
+  <LinearLayout android:id="@+id/CountAndConfirm" 
+	android:layout_width="fill_parent" 
+	android:layout_height="40px"
+	android:orientation="horizontal">
+	<TextView android:layout_width="fill_parent" 
+		android:layout_height="fill_parent" 
+		android:layout_weight="1" 
+		android:id="@+id/CountTextView" 
+		android:text="1 / 5" 
+		android:gravity="center" 
+		android:textSize="30px"
+		></TextView>
+	<Button android:text="Done" 
+		android:id="@+id/ConfirmButton" 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent" 
+		android:layout_weight="1"
+		></Button>
+	</LinearLayout>
+	<SlidingDrawer android:id="@+id/TipsSlidingDrawer" 
+		android:content="@+id/TipsContent" 
+		android:handle="@+id/TipsHandle" 
+		android:orientation="vertical" 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent" 
+		android:layout_gravity="bottom|center"
+		>
+		<LinearLayout android:id="@+id/TipsHandle" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:gravity="center"
+			>
+		<ImageView android:id="@+id/SlidingDrawerButton" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:src="@drawable/open"
+			>
+		</ImageView>
+		</LinearLayout>
+		<LinearLayout android:id="@+id/TipsContent" 
+			android:layout_height="fill_parent" 
+			android:layout_width="fill_parent" 
+			android:orientation="vertical" 
+			android:gravity="bottom|center"
+			>
+		<TextView android:text="Tips" 
+			android:id="@+id/TipsTextView" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			></TextView>
+		<ImageView android:id="@+id/TipsImageView" 
+			android:layout_width="200px" 
+			android:layout_height="300px"
+			></ImageView>
+		</LinearLayout>
+	</SlidingDrawer>
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical" android:layout_width="fill_parent" android:gravity="center_vertical" android:layout_height="fill_parent">
+<Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="Use Camera" android:id="@+id/UseCameraButton"></Button>
+<Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="From Gallary" android:id="@+id/FromGallaryButton"></Button>
+</LinearLayout>

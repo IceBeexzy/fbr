@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical">
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" android:text="FACE BEAUTY RANK" android:gravity="center" android:textSize="35px"/>
+
+<LinearLayout android:id="@+id/LinearLayout01" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:gravity="center" android:layout_marginTop="90px"><Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="Enjoy" android:id="@+id/EnterButton"></Button>
+<Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="Help" android:id="@+id/HelpButton"></Button>
+<Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="Quit" android:id="@+id/QuitButton"></Button>
+</LinearLayout>
+</LinearLayout>

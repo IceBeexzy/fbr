@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content" android:orientation="vertical">
+
+	<LinearLayout android:id="@+id/ResultLinearLayout" 
+		android:layout_width="fill_parent" 
+		android:orientation="horizontal" 
+		android:layout_height="300px"
+		>
+		<LinearLayout android:id="@+id/ResultImageLayout" 
+			android:layout_height="fill_parent" 
+			android:layout_width="200px"
+			>
+			<ImageView android:id="@+id/PhotoImage" 
+				android:layout_width="fill_parent" 
+				android:layout_height="fill_parent"
+				></ImageView>
+		</LinearLayout>
+		<LinearLayout android:id="@+id/DisplayResultLayout" 
+			android:layout_width="fill_parent" 
+			android:layout_height="fill_parent" 
+			android:orientation="vertical" 
+			android:gravity="bottom|center"
+			>
+			<ImageView android:id="@+id/ResultStarImageView" 
+				android:layout_width="fill_parent" 
+				android:layout_height="50px"
+				></ImageView>
+			<TextView android:text="startxt" 
+				android:id="@+id/testStarResult" 
+				android:layout_width="fill_parent" 
+				android:layout_height="50px"
+				></TextView>
+			<Button android:text="Upload" 
+				android:id="@+id/UploadResultButton" 
+				android:layout_width="fill_parent" 
+				android:layout_height="50px"
+				></Button>
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout android:id="@+id/CommentLinearLayout" 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent" 
+		android:orientation="vertical"
+		>
+		<TextView android:text="一看你就知道你是赵彬，因为你的等级是史上最低的！aho" 
+			android:id="@+id/CommentTextView" 
+			android:layout_width="fill_parent" 
+			android:layout_height="60px"
+			></TextView>
+		<Button android:text="Menu" 
+			android:id="@+id/BackToMenuButton" 
+			android:layout_width="fill_parent" 
+			android:layout_height="fill_parent"
+			></Button>
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout android:id="@+id/FrameLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"><LinearLayout android:id="@+id/LinearLayout01" android:layout_height="fill_parent" android:layout_width="fill_parent" android:orientation="horizontal" android:gravity="center"><SurfaceView android:layout_height="480px" android:layout_width="640px" android:id="@+id/PhotoSurfaceView"></SurfaceView>
+<LinearLayout android:id="@+id/LinearLayout02" android:gravity="center" android:orientation="vertical" android:layout_height="fill_parent" android:layout_width="fill_parent"><Button android:id="@+id/SureButton" android:text="确定" android:layout_width="fill_parent" android:layout_height="wrap_content"></Button>
+<Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="拍照" android:id="@+id/TakePhotoButton"></Button>
+
+</LinearLayout>
+</LinearLayout>
+<LinearLayout android:id="@+id/LinearLayout03" android:layout_height="fill_parent" android:layout_width="fill_parent"><ImageView android:id="@+id/ImageView01" android:layout_height="fill_parent" android:layout_width="fill_parent" android:src="@drawable/photoframe"></ImageView>
+</LinearLayout>
+</FrameLayout>
